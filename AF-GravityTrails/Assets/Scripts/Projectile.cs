@@ -11,11 +11,17 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         direction = GameObject.FindGameObjectWithTag("Player").GetComponent<Throwable>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position += direction.offset * Time.deltaTime * speed;
+    }
+
+    private void DestroyThrowable()
+    {
+        Destroy(gameObject);
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public GameObject enemy;
     public float xForce;
     public float yForce;
     public float xDirection;
@@ -27,7 +28,7 @@ public class EnemyMovement : MonoBehaviour
         if (collision.gameObject.tag == "Collectible")
         {
             Destroy(collision.gameObject);
-            
+            Destroy(enemy);
         }
     }
 
