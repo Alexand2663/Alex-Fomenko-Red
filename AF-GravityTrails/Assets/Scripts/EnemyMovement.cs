@@ -29,6 +29,7 @@ public class EnemyMovement : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(enemy);
+            
         }
     }
 

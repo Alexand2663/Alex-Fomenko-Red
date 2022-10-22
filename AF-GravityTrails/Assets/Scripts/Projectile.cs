@@ -11,6 +11,7 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         direction = GameObject.FindGameObjectWithTag("Player").GetComponent<Throwable>();
+        Invoke("DestroyThrowable", 3.0f);
 
     }
 
