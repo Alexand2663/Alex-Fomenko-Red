@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 6777840510841117080}
+  enemyCount: 7
   xForce: 0
   yForce: 200
   xDirection: 1

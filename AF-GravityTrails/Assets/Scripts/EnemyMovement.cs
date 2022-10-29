@@ -9,6 +9,7 @@ public class EnemyMovement : MonoBehaviour
     public float yForce;
     public float xDirection;
     private Rigidbody2D enemyRigidBody;
+    public Teleport teleport;
 
     // Start is called before the first frame update
     void Start()
@@ -27,9 +28,11 @@ public class EnemyMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Collectible")
         {
+            teleport.enemyCount -= 1;
+            Debug.Log("Destroy");
             Destroy(collision.gameObject);
             Destroy(enemy);
-            
+ 
         }
     }
 
