@@ -28,11 +28,14 @@ public class EnemyMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Collectible")
         {
-            teleport.enemyCount -= 1;
-            Debug.Log("Destroy");
+
             Destroy(collision.gameObject);
+            
             Destroy(enemy);
- 
+            
+            teleport.enemyCount-- ;
+            Debug.Log(collision.gameObject.name);
+            Debug.Log("Destroyed");
         }
     }
 

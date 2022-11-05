@@ -282,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6777840510841117080, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
       propertyPath: m_Name
-      value: Crusher1 (3)
+      value: Crusher (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
@@ -691,7 +691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6777840510841117080, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
       propertyPath: m_Name
-      value: Crusher1 (5)
+      value: Crusher (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
@@ -1564,7 +1564,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.6928468e+22, y: 2.1123587e-19, z: 1.9431615e-19, w: 7.7179543e+28}
+  m_BoundingSphereOverride: {x: 2.2e-44, y: 6.5796786e+37, z: 9.1858e-41, w: 3.689349e+19}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1631,7 +1631,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2855659, y: 1}
+    m_SensorSize: {x: 2.2574358, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1982,7 +1982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6777840510841117080, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
       propertyPath: m_Name
-      value: Crusher1 (1)
+      value: Crusher (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
@@ -2043,7 +2043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6777840510841117080, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
       propertyPath: m_Name
-      value: Crusher1
+      value: Crusher
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6777840510841117078, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
@@ -2310,7 +2310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6777840510841117080, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
       propertyPath: m_Name
-      value: Crusher1 (2)
+      value: Crusher (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
@@ -3821,7 +3821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6777840510841117080, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
       propertyPath: m_Name
-      value: Crusher1 (4)
+      value: Crusher (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
@@ -3936,7 +3936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce33c5da3e2286247855f861eb42a6d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyCount: 7
+  enemyCount: 0
 --- !u!1 &1510195651
 GameObject:
   m_ObjectHideFlags: 0
@@ -4362,7 +4362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6777840510841117080, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
       propertyPath: m_Name
-      value: Crusher1 (6)
+      value: Crusher (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4145e24d86112a6418667d26a41589f2, type: 3}
