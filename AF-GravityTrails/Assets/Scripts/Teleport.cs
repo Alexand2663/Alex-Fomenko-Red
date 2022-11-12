@@ -21,7 +21,8 @@ public class Teleport : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Player" && enemyCount == 0)
+        Debug.Log("portaltest123");
+        if (collision.gameObject.tag == "Portal")
         {
             Debug.Log("portaltest");
             SceneManager.LoadScene(1);
