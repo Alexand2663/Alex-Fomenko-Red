@@ -48,7 +48,15 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 96
+=======
+<<<<<<< HEAD
+  controlID: 18
+=======
+  controlID: 96
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,10 +101,23 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 288.8
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    height: 427.2
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+=======
+>>>>>>> Stashed changes
     height: 423.2
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -223,7 +244,15 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 101
+=======
+<<<<<<< HEAD
+  controlID: 19
+=======
+  controlID: 101
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +277,15 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 102
+=======
+<<<<<<< HEAD
+  controlID: 20
+=======
+  controlID: 102
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +383,50 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
     - Assets/Artwork
+=======
+<<<<<<< HEAD
+    - Assets/Scripts
+=======
+    - Assets/Artwork
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< Updated upstream
   - Assets/Artwork
+=======
+<<<<<<< HEAD
+  - Assets/Scripts
+=======
+  - Assets/Artwork
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Code Ninjas Markham\Documents\Alex-Fomenko-Red\AF-GravityTrails
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: 62520000
     m_LastClickedID: 21090
     m_ExpandedIDs: 00000000605200006452000000ca9a3b
+=======
+<<<<<<< HEAD
+    m_SelectedIDs: b6530000
+    m_LastClickedID: 21430
+    m_ExpandedIDs: 000000008c5300008e530000
+=======
+    m_SelectedIDs: 62520000
+    m_LastClickedID: 21090
+    m_ExpandedIDs: 00000000605200006452000000ca9a3b
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +454,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000605200006252000064520000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 000000008c5300008e530000
+=======
+    m_ExpandedIDs: 00000000605200006252000064520000
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -519,7 +592,15 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: 3e2dffffd04effffc873ffff1274ffff90d0ffffecfaffff1afbffff
+=======
+<<<<<<< HEAD
+      m_ExpandedIDs: 1afbffff
+=======
+      m_ExpandedIDs: 3e2dffffd04effffc873ffff1274ffff90d0ffffecfaffff1afbffff
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -768,9 +849,21 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 380.91208, y: 224.0763, z: 0.7974494}
     speed: 2
     m_Value: {x: 380.91208, y: 224.0763, z: 0.7974494}
+=======
+<<<<<<< HEAD
+    m_Target: {x: 2.4299064, y: 0.2118899, z: -9.458345}
+    speed: 2
+    m_Value: {x: 2.4299064, y: 0.2118899, z: -9.458345}
+=======
+    m_Target: {x: 380.91208, y: 224.0763, z: 0.7974494}
+    speed: 2
+    m_Value: {x: 380.91208, y: 224.0763, z: 0.7974494}
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -821,9 +914,21 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 235.19225
     speed: 2
     m_Value: 235.19225
+=======
+<<<<<<< HEAD
+    m_Target: 5.8304625
+    speed: 2
+    m_Value: 5.8304625
+=======
+    m_Target: 235.19225
+    speed: 2
+    m_Value: 235.19225
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2

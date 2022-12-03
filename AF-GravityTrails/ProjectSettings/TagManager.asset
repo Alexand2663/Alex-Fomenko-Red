@@ -8,7 +8,15 @@ TagManager:
   - ThrowingObject
   - Ground
   - Collectible
+<<<<<<< Updated upstream
   - Portal
+=======
+<<<<<<< HEAD
+  - Exit
+=======
+  - Portal
+>>>>>>> 989a90aca80a95884dcac5e5b9bdc07bc8cc0cdc
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
