@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TimersCountdown : MonoBehaviour
 {
+    public CodeyMove codeyMove;
     public Text lapTime;
     public Text startCountdown;
 
@@ -20,6 +21,27 @@ public class TimersCountdown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        lapTime.text = Mathf.Round(totalLapTime).ToString();
+        startCountdown.text = Mathf.Round(totalCountdownTime).ToString();
+
+        if (totalCountdownTime > 0)
+        {
+            totalCountdownTime -= Time.deltaTime;
+            startCountdown.text = totalCountdownTime.ToString();
+            codeyMove.Speed = 0;
+        }
+
+        if (totalCountdownTime <= 0)
+        {
+            startCountdown.text = "";
+            totalLapTime -= Time.deltaTime;
+            lapTime.text = totalLapTime.ToString();
+            codeyMove.Speed = 40;
+        }
+
+        if (totalLapTime < 0)
+        {
+            print("Time is up!");
+        }
     }
 }
