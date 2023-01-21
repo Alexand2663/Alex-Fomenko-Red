@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8284614367441415720}
   - component: {fileID: 4937316941602195591}
   - component: {fileID: 4866138863033409001}
+  - component: {fileID: -1921572374803343372}
+  - component: {fileID: -407974776129212038}
   m_Layer: 0
   m_Name: NavMeshShell
   m_TagString: Untagged
@@ -114,3 +116,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-1921572374803343372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7724655693145907116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cad443434246ee439a2c1da29be24c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-407974776129212038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7724655693145907116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62b535ba35771f419126358cd427ee2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
