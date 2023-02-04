@@ -1357,6 +1357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 510b42e6a40783244ba99bbd720e331b, type: 3}
+      propertyPath: m_TagString
+      value: Terrain
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 510b42e6a40783244ba99bbd720e331b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1379,7 +1383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 510b42e6a40783244ba99bbd720e331b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 510b42e6a40783244ba99bbd720e331b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2063,7 +2067,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0c1bef51dce0e2c4a821aa2de2683c91, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.959301
+      value: 12.73
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0c1bef51dce0e2c4a821aa2de2683c91, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3644,8 +3648,43 @@ MonoBehaviour:
   powerupList:
   - {fileID: 7724655693145907116, guid: ae3822a6f99583343b8454066312cbc8, type: 3}
   - {fileID: 7724655693145907116, guid: 67cf295f4aa4f3c41ba1a37e836c8717, type: 3}
+  - {fileID: 5317571946446935448, guid: 80d7383082fca4240a0a71c4c426e020, type: 3}
   randomNumberInList: 0
   chosenPowerup: {fileID: 0}
+--- !u!114 &978132941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978132928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ec67e055e1e2340904e58d851f3f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &978132942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978132928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda990d83b64dee48be093f467d7aba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  codey: {fileID: 978132928}
+  tree: {fileID: 1602395132}
+  apple: 0
+  currentMin: 0
+  trees:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  distanceBetweenObjects: 0
 --- !u!1 &978697649
 GameObject:
   m_ObjectHideFlags: 0
