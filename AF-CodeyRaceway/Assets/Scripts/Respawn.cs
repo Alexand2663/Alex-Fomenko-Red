@@ -20,7 +20,7 @@ public class Respawn : MonoBehaviour
     {
         if (other.gameObject.tag == "Terrain")
         {
-            
+            Time.timeScale = 0;
         }
     }
 }

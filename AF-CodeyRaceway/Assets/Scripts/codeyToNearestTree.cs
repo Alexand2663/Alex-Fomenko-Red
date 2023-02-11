@@ -8,24 +8,28 @@ public class codeyToNearestTree : MonoBehaviour
     public GameObject tree;
     public float apple;
     public float currentMin;
+    public GameObject currentMinTree;
 
     public GameObject[] trees;
 
     public float distanceBetweenObjects;
 
+
     // Start is called before the first frame update
     void Start()
     {
+        currentMin = Mathf.Infinity;
+        currentMinTree = null;
         trees = GameObject.FindGameObjectsWithTag("Obstacle");
 
         foreach (GameObject tree in trees)
         {
             apple = Vector3.Distance(codey.transform.position, tree.transform.position);
-            Debug.Log(apple);
 
             if (currentMin > apple)
             {
                 currentMin = apple;
+                currentMinTree = tree;
             }
         }
     }
