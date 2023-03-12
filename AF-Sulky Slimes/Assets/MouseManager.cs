@@ -14,6 +14,7 @@ public class MouseManager : MonoBehaviour
     [Header("Slime")]
     public Transform slimeTransform;
     public Rigidbody slimeRigidbody;
+    public Vector3 originalSlimePosition;
 
     // Update is called once per frame
     void Update()
@@ -30,12 +31,21 @@ public class MouseManager : MonoBehaviour
                 mouseDifference.y * 1.2f,
                 mouseDifference.y * 1.5f
                );
+            //slimeTransform.position = originalSlimePosition - launchVector / 400;
             launchVector.Normalize();
         }
         if (Input.GetMouseButtonUp(0))
         {
             slimeRigidbody.isKinematic = false;
             slimeRigidbody.AddForce(new Vector3(-100, 10, 0), ForceMode.Impulse);
+        }
+
+        if (Input.GetKeyDown("space"))
+        {
+            slimeRigidbody.isKinematic = true;
+            originalSlimePosition = new Vector3(1, 2, 0);
+            slimeTransform.position = originalSlimePosition;
+            slimeTransform.rotation = Quaternion.identity;
         }
     }
 }
