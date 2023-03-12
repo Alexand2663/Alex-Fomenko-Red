@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 60
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 61
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 30
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,13 +346,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Code Ninjas Markham\Documents\Alex-Fomenko-Red\AF-Sulky
     Slimes
@@ -360,8 +360,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 065c0000
-    m_LastClickedID: 23558
+    m_SelectedIDs: 1c600000
+    m_LastClickedID: 24604
     m_ExpandedIDs: 00000000065c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -518,23 +518,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a0180000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1afbffff
+      m_ExpandedIDs: aca7ffffe2cdffff1afbffff7e5b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Left Post
+        m_OriginalName: Left Post
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 23488
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -769,9 +769,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -24.44967, y: 256.3666, z: 39.015076}
+    m_Target: {x: 163.15128, y: 237.33826, z: 22.3191}
     speed: 2
-    m_Value: {x: -24.44967, y: 256.3666, z: 39.015076}
+    m_Value: {x: 163.15128, y: 237.33826, z: 22.3191}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -818,13 +818,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08788252, y: 0.911542, z: -0.26734567, w: -0.29941785}
+    m_Target: {x: 0.04339516, y: -0.7561065, z: 0.050452556, w: 0.6507945}
     speed: 2
-    m_Value: {x: -0.0878932, y: 0.9116528, z: -0.26737815, w: -0.29945424}
+    m_Value: {x: 0.043402556, y: -0.75623536, z: 0.050461154, w: 0.65090543}
   m_Size:
-    m_Target: 0.7898368
+    m_Target: 1.7320508
     speed: 2
-    m_Value: 0.7898368
+    m_Value: 1.7320508
   m_Ortho:
     m_Target: 0
     speed: 2

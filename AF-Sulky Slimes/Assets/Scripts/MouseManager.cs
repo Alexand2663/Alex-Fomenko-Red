@@ -27,23 +27,23 @@ public class MouseManager : MonoBehaviour
         {
             Vector3 mouseDifference = clickStartLocation = Input.mousePosition;
             launchVector = new Vector3(
-                mouseDifference.x * 1f,
-                mouseDifference.y * 1.2f,
-                mouseDifference.y * 1.5f
+                mouseDifference.x * 1.5f,
+                mouseDifference.y * 2f,
+                mouseDifference.y * 2.5f
                );
-            //slimeTransform.position = originalSlimePosition - launchVector / 400;
+            slimeTransform.position = originalSlimePosition - launchVector / 400;
             launchVector.Normalize();
         }
         if (Input.GetMouseButtonUp(0))
         {
             slimeRigidbody.isKinematic = false;
-            slimeRigidbody.AddForce(new Vector3(-100, 10, 0), ForceMode.Impulse);
+            slimeRigidbody.AddForce(launchVector * -launchForce, ForceMode.Impulse);
         }
 
         if (Input.GetKeyDown("space"))
         {
             slimeRigidbody.isKinematic = true;
-            originalSlimePosition = new Vector3(1, 2, 0);
+            originalSlimePosition = new Vector3(158, 233, 13);
             slimeTransform.position = originalSlimePosition;
             slimeTransform.rotation = Quaternion.identity;
         }
