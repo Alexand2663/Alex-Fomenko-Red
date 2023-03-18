@@ -25,25 +25,28 @@ public class MouseManager : MonoBehaviour
         }
         if (Input.GetMouseButton(0))
         {
-            Vector3 mouseDifference = clickStartLocation = Input.mousePosition;
+            Vector3 mouseDifference = clickStartLocation - Input.mousePosition;
             launchVector = new Vector3(
-                mouseDifference.x * 1.5f,
-                mouseDifference.y * 2f,
-                mouseDifference.y * 2.5f
+                mouseDifference.x * -1f,
+                mouseDifference.y * 1.1f,
+                mouseDifference.y * -1.2f
                );
+            launchForce = mouseDifference.y;
             slimeTransform.position = originalSlimePosition - launchVector / 400;
             launchVector.Normalize();
+            Debug.LogWarning(mouseDifference);
+            Debug.Log(slimeTransform.position);
         }
         if (Input.GetMouseButtonUp(0))
         {
             slimeRigidbody.isKinematic = false;
-            slimeRigidbody.AddForce(launchVector * -launchForce, ForceMode.Impulse);
+            slimeRigidbody.AddForce(launchVector * launchForce, ForceMode.Impulse);
         }
 
         if (Input.GetKeyDown("space"))
         {
             slimeRigidbody.isKinematic = true;
-            originalSlimePosition = new Vector3(158, 233, 13);
+            originalSlimePosition = new Vector3(386.310211f, 232.373993f, 142.40744f);
             slimeTransform.position = originalSlimePosition;
             slimeTransform.rotation = Quaternion.identity;
         }
