@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    public float distanceToMove = 50;
+    public float distanceToMove = 100;
 
     private Vector3 startingPosition;
     private Vector3 endingPosition;
 
-    public float speed = 0.1f;
+    public float speed = 0.141f;
     public float direction = -1f;
 
     // Start is called before the first frame update
@@ -32,6 +32,14 @@ public class Collectable : MonoBehaviour
             direction = -1;
         }
 
-        startingPosition.x += speed * direction * Time.deltaTime;
+        transform.position += new Vector3(0 + speed * direction, 0, 0);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

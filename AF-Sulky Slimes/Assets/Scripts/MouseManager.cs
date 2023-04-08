@@ -16,12 +16,21 @@ public class MouseManager : MonoBehaviour
     public Rigidbody slimeRigidbody;
     public Vector3 originalSlimePosition;
 
+    [Header("Lives")]
+    public LivesManager livesManager;
+
     // Update is called once per frame
     void Update()
     {
+        if(livesManager.lives < 0)
+        {
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             clickStartLocation = Input.mousePosition;
+            livesManager.RemoveLife();
         }
         if (Input.GetMouseButton(0))
         {
@@ -34,8 +43,6 @@ public class MouseManager : MonoBehaviour
             launchForce = mouseDifference.y;
             slimeTransform.position = originalSlimePosition - launchVector / 400;
             launchVector.Normalize();
-            Debug.LogWarning(mouseDifference);
-            Debug.Log(slimeTransform.position);
         }
         if (Input.GetMouseButtonUp(0))
         {
