@@ -10,7 +10,7 @@ public class LivesManager : MonoBehaviour
     public void RemoveLife()
     {
         lives -= 1;
-        print("You lost a life! Lives: " + lives);
+        hearts[lives].SetActive(false);
     }
 
     // Start is called before the first frame update

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MouseManager : MonoBehaviour
 {
@@ -22,15 +23,15 @@ public class MouseManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(livesManager.lives < 0)
+        if(livesManager.lives <= 0)
         {
+            SceneManager.LoadScene(0);
             return;
         }
 
         if (Input.GetMouseButtonDown(0))
         {
             clickStartLocation = Input.mousePosition;
-            livesManager.RemoveLife();
         }
         if (Input.GetMouseButton(0))
         {
@@ -46,6 +47,7 @@ public class MouseManager : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
+            livesManager.RemoveLife();
             slimeRigidbody.isKinematic = false;
             slimeRigidbody.AddForce(launchVector * launchForce, ForceMode.Impulse);
         }
