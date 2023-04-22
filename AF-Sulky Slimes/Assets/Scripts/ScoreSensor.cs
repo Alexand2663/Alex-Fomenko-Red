@@ -1,17 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 
-public class Score : MonoBehaviour
+public class ScoreSensor : MonoBehaviour
 {
-    public int score;
+    public GameObject scoreSensor;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -22,12 +20,9 @@ public class Score : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        TextMeshPro ScoreNum = GetComponent<TextMeshPro>();
-
-        if (other.gameObject.tag == "stack")
+        if(other.gameObject.tag == "stack")
         {
-            score += 1;
-            ScoreNum.text = "Score: " + score.ToString();
+            //Invoke();
         }
     }
 }

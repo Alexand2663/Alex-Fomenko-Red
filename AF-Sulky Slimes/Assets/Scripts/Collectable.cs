@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Collectable : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class Collectable : MonoBehaviour
 
     public float speed = 0.141f;
     public float direction = -1f;
+
+    [Header("Scene to load")]
+    public int sceneNumber;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +44,11 @@ public class Collectable : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             gameObject.SetActive(false);
+            Invoke("LoadNextScene", 2f);
         }
+    }
+    private void LoadNextScene()
+    {
+        SceneManager.LoadScene(sceneNumber);
     }
 }
