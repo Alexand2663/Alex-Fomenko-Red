@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreSensor : MonoBehaviour
 {
-    public GameObject scoreSensor;
+    public Score score;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class ScoreSensor : MonoBehaviour
     {
         if(other.gameObject.tag == "stack")
         {
-            //Invoke();
+            score.ScoreUpdate();
         }
     }
 }

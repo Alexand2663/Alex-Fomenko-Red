@@ -20,14 +20,10 @@ public class Score : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision other)
+    public void ScoreUpdate()
     {
-        TextMeshPro ScoreNum = GetComponent<TextMeshPro>();
+        score += 1;
 
-        if (other.gameObject.tag == "stack")
-        {
-            score += 1;
-            ScoreNum.text = "Score: " + score.ToString();
-        }
+        transform.GetComponent<Text>().text = score.ToString();
     }
 }
